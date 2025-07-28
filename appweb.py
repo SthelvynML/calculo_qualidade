@@ -26,7 +26,7 @@ with st.container():
     tor = st.number_input("Digite o valor de Torção", min_value=0.0, step=0.1)
     
     if st.button("Calcular Torção"):
-        resultado = 100 * tor / 40
+        resultado = 100 * tor / 50
         st.info(f"ℹ️ Resultado da torção: {resultado:.2f}%")
 
 # RODAPÉ
