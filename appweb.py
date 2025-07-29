@@ -14,7 +14,7 @@ with st.container():
     enc = st.number_input("Digite o valor de Encolhimento (%)", min_value=0.0, step=0.1)
     
     if st.button("Calcular Encolhimento"):
-        resultado = enc * 2
+        resultado = (50 - enc) * 2
         st.success(f"✅ Resultado do encolhimento: {resultado:.2f}%")
 
 # SEPARADOR
